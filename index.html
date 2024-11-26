@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <nav class="navbar section-content">
+        <a href="#" class="nav-logo" style="display: flex">
+          <img src="logo.png" height="50" width="10" alt="" style="filter: invert(100%)"/>
+          <h2 class="logo-text">Coffee</h2>
+        </a>
+        <ul class="nav-menu">
+          <button id="menu-close-button" class="fas fa-times"></button>
+          <li class="nav-item">
+            <a href="#hero-section" class="nav-link">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#about-section" class="nav-link">About</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#menu-section" class="nav-link">Menu</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#testimonials-section" class="nav-link">Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a href="#gallery" class="nav-link">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact-section" class="nav-link">Contact</a>
+          </li>
+        </ul>
+        <button id="menu-open-button" class="fas fa-bars"></button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero-->
+      <section class="hero-section" id="hero-section">
+        <div class="section-content">
+          <div class="hero-details">
+            <h2 class="title slide-right">Best Coffee</h2>
+            <h3 class="subtitle slide-right">
+              Make your day great with our Special Coffee!
+            </h3>
+            <p class="description slide-right">
+              Welcome to our coffee paradise, where every bean tells a story and
+              every cup sparks joy.
+            </p>
+
+            <div class="buttons slide-right">
+              <a href="#" class="button order-now">Order Now</a>
+              <a href="#" class="button contact-us">Contact Us</a>
+            </div>
+          </div>
+          <div class="hero-image-wrapper slide-left">
+            <img src="coffee-hero-section.png" alt="Hero" class="hero-image"/>
+          </div>
+        </div>
+      </section>
+
+      <!-- About-->
+      <section class="about-section" id="about-section">
+        <div class="section-content">
+          <div class="about-image-wrapper">
+            <img src="about-image.jpg" alt="" class="about-image" />
+          </div>
+          <div class="about-details">
+            <h2 class="section-title">About Us</h2>
+            <p class="text">
+              At Coffee House in berndorf, Germany, we provide ourselves on
+              being a go-to destination for coffee lovers and conversation
+              seekers alike. We're dedicated to providing an exceptional coffee
+              experience in a cozy and inviting atmosphere, where guests can
+              relax, unwind, and enjoy their time in comfort.
+            </p>
+            <div class="social-link-list">
+              <a href="#" class="social-link">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+              <a href="#" class="social-link">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a href="#" class="social-link">
+                <i class="fa-brands fa-x-twitter"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Menu-->
+      <section class="menu-section" id="menu-section">
+        <h2 class="section-title">Our Menu</h2>
+        <div class="section-content">
+          <ul class="menu-list">
+            <li class="menu-item">
+              <img src="hot-beverages.png" alt="Hot Beverages" class="menu-image flip-horizontal-bottom"/>
+              <h3 class="name">Hot Beverages</h3>
+              <p class="text">
+                Wide range of Steaming hot coffee to make you fresh and light.
+              </p>
+            </li>
+            <li class="menu-item">
+              <img src="cold-beverages.png" alt="Cold Beverages" class="menu-image flip-horizontal-bottom"/>
+              <h3 class="name">Cold Beverages</h3>
+              <p class="text">
+                Creamy and Frothy cold coffee to make you cool.
+              </p>
+            </li>
+            <li class="menu-item">
+              <img src="refreshment.png" alt="Refreshment" class="menu-image flip-horizontal-bottom"/>
+              <h3 class="name">Refreshment</h3>
+              <p class="text">
+                Fruit and icy refreshing drink to make feel refresh.
+              </p>
+            </li>
+            <li class="menu-item">
+              <img src="special-combo.png" alt="Special Combo" class="menu-image flip-horizontal-bottom"/>
+              <h3 class="name">Special Combo</h3>
+              <p class="text">Your favourite eating and drinking combations.</p>
+            </li>
+            <li class="menu-item">
+              <img src="desserts.png" alt="Desserts" class="menu-image flip-horizontal-bottom"/>
+              <h3 class="name">Desserts</h3>
+              <p class="text">
+                Satiate Your palate and take you on a culinary treat.
+              </p>
+            </li>
+            <li class="menu-item">
+              <img src="burger-frenchfries.png" alt="Burger Frenchfries" class="menu-image flip-horizontal-bottom"/>
+              <h3 class="name">Burger & Frenchfries</h3>
+              <p class="text">Quick bites to satisfy your small size hunger.</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!--Testimonials-->
+
+      <section class="testimonials-section" id="testimonials-section">
+        <h2 class="section-title">Testimonials</h2>
+        <div class="section-content">
+          <div class="section-container swiper">
+            <div class="slider-wrapper">
+              <ul class="testimonials-list swiper-wrapper">
+                <li class="testimonials swiper-slide">
+                  <img src="user-1.jpg" alt="" class="user-image" />
+                  <h3 class="user-name">Sarah Johnson</h3>
+                  <i class="feedback">
+                    Loved the French roast. Perfectly balanced and rich. will
+                    order again!
+                  </i>
+                </li>
+                <li class="testimonials swiper-slide">
+                  <img src="user-2.jpg" alt="" class="user-image" />
+                  <h3 class="user-name">Michael Brown</h3>
+                  <i class="feedback">
+                    Fantasic Mocha flavour. Fresh and aromatic. Quick Shipping!
+                  </i>
+                </li>
+                <li class="testimonials swiper-slide">
+                  <img src="user-3.jpg" alt="" class="user-image" />
+                  <h3 class="user-name">James Wilson</h3>
+                  <i class="feedback">Great expresso blend! smooth and bold flavour. Fast Shipping too!</i>
+                </li>
+                <li class="testimonials swiper-slide">
+                  <img src="user-4.jpg" alt="" class="user-image" />
+                  <h3 class="user-name">Emily Haaris</h3>
+                  <i class="feedback">Excellent quality! Fresh beans and quick delivery. Highly recommended.</i>
+                </li>
+                <li class="testimonials swiper-slide">
+                  <img src="user-5.jpg" alt="" class="user-image" />
+                  <h3 class="user-name">Anthony Thompson</h3>
+                  <i class="feedback">Best decaf I'v tried Smooth and flavourful. Arrived promptly.</i>
+                </li>
+              </ul>
+              <div class="swiper-pagination"></div>
+              <div class="swiper-slide-button swiper-button-prev"></div>
+              <div class="swiper-slide-button swiper-button-next"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Gallery-->
+      <section class="gallery-section" id="gallery">
+        <h2 class="section-title">Gallery</h2>
+        <div class="section-content">
+          <ul class="gallery-list">
+            <li class="gallery-item">
+              <img src="gallery-1.jpg" alt="Gallery" class="gallery-image">
+            </li>
+            <li class="gallery-item">
+              <img src="gallery-2.jpg" alt="Gallery" class="gallery-image">
+            </li>
+            <li class="gallery-item">
+              <img src="gallery-3.jpg" alt="Gallery" class="gallery-image">
+            </li>
+            <li class="gallery-item">
+              <img src="gallery-4.jpg" alt="Gallery" class="gallery-image">
+            </li>
+            <li class="gallery-item">
+              <img src="gallery-5.jpg" alt="Gallery" class="gallery-image">
+            </li>
+            <li class="gallery-item">
+              <img src="gallery-6.jpg" alt="Gallery" class="gallery-image">
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="contact-section" id="contact-section">
+        <h2 class="section-title">Contact Us</h2>
+        <div class="section-content">
+          <ul class="contact-info-list">
+            <li class="contact-info">
+              <p><i class="fa-solid fa-location-crosshairs"></i>123 Campsite Avenue, Wilderness, CA 98765</p>
+            </li>
+            <li class="contact-info">
+              <p><i class="fa-regular fa-envelope"></i>info@coffeeshopwebsite.com</p>
+            </li>
+            <li class="contact-info">
+              <p><i class="fa-solid fa-phone"></i>(123) 456-78909</p>
+            </li>
+            <li class="contact-info">
+              <p><i class="fa-regular fa-clock"></i>Monday-Friday : 9:00 AM - 5.00 PM</p>
+            </li>
+            <li class="contact-info">
+              
+              <p><i class="fa-regular fa-clock"></i>Saturday : 10:00 AM - 3.00 PM</p>
+            </li>
+            <li class="contact-info">
+              
+              <p><i class="fa-regular fa-clock"></i>Sunday : Closed</p>
+            </li>
+            <li class="contact-info">
+              <p> <i class="fa-solid fa-globe"></i>www.paragweb.com</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+    </main>
+
+  </body>
+</html>
